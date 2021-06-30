@@ -1,0 +1,64 @@
+@import "../reset.css";
+
+
+.main{
+    margin-top: 300px;
+    padding: 10px;
+    
+}
+
+body{
+    background: rgb(167, 209, 167);
+}
+
+.input {
+    border:none ;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin: 10px 20px;
+    border-radius: 15px;
+}
+
+
+.input:hover{
+    border: 2px solid blue;
+    background-color: rgb(151, 231, 225); 
+    font-size: 17px;
+     color: black;
+     font-weight: 400;
+}
+
+.input:focus{
+    border: 2px solid blue;
+    background-color: rgb(151, 231, 225); 
+    font-size: 17px;
+     color: black;
+     font-weight: 400;
+        
+}
+
+.btn{
+    color:rgb(240, 245, 250);
+    font-size: 25px;
+    font-weight: 400;
+    background: rgb(85, 80, 158);
+    padding: 15px;
+    margin: 10px 20px;
+    border-radius: 15px;
+    border:none ;
+}
+
+.btn:hover{
+    background:greenyellow;
+    color: blue;  
+}
+
+
+p{  width: 65%;
+    text-align: left;
+    margin: 0 auto;
+}
